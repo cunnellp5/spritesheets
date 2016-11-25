@@ -4,11 +4,11 @@
     background-image: url("ken-sprite-sheet.png");
     /*background-position: 5px;*/
 
-    -webkit-animation: play .0061s steps(15) infinite;
-       -moz-animation: play .0061s steps(15) infinite;
-        -ms-animation: play .0061s steps(15) infinite;
-         -o-animation: play .0061s steps(15) infinite;
-            animation: play .0061s steps(15) infinite;
+    -webkit-animation: play .8s steps(15) infinite;
+       -moz-animation: play .8s steps(15) infinite;
+        -ms-animation: play .8s steps(15) infinite;
+         -o-animation: play .8s steps(15) infinite;
+            animation: play .8s steps(15) infinite;
 }
 
 @-webkit-keyframes play {
