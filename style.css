@@ -1,0 +1,37 @@
+.hi {
+    width: 157px;
+    height: 250px;
+    background-image: url("ken-sprite-sheet.png");
+    /*background-position: 5px;*/
+
+    -webkit-animation: play .0061s steps(15) infinite;
+       -moz-animation: play .0061s steps(15) infinite;
+        -ms-animation: play .0061s steps(15) infinite;
+         -o-animation: play .0061s steps(15) infinite;
+            animation: play .0061s steps(15) infinite;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -500px; }
+}
